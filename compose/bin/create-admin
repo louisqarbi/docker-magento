@@ -1,0 +1,3 @@
+#!/bin/bash
+
+bin/magento admin:user:create --admin-user=local --admin-password=$Abc1234 --admin-email=local.user@omnyfy.com --admin-firstname=Louis --admin-lastname=Nguyen

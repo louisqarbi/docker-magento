@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="sensitive-config-set-qarbi" xsi:type="object">Qarbi\SensitiveConfigurationSet\Console\Command\ConfigSetSensitiveCommand</item>
+                <item name="sensitive-config-define-qarbi" xsi:type="object">Qarbi\SensitiveConfigurationSet\Console\Command\DefineSensitiveConfigurationCommand</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
